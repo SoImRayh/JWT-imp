@@ -1,0 +1,11 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: jwt
+    password: jwt
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8081
